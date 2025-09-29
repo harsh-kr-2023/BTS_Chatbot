@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-container {
+  color: white;
+  padding: 2rem;
+}
+
+.demo-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.demo-container p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .demo-container h1 {
+    font-size: 2rem;
+  }
+
+  .demo-container p {
+    font-size: 1rem;
+  }
+}

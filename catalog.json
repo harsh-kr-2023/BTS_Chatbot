@@ -1,0 +1,257 @@
+{
+  "db_info": {
+    "description": "The following types of data can be fetched directly from the database via DB queries:",
+    "available_data": [
+      "Speakers: names, designations, profiles, photos, LinkedIn links, and speaker order.",
+      "Sessions: day, sector, session topic, subtopic, start/end time, and session-speaker mapping.",
+      "Speaker-Session Mapping: which speakers are in which sessions, and their roles.",
+      "Schedule: session times, days, and topics.",
+      "Awards, panels, and special program participants (if present in DB)."
+    ],
+    "note": "For any question about speakers, sessions, or the event schedule, the system will use the database for the most accurate and up-to-date information."
+  },
+  "pages": [
+    {
+      "filename": "BTS-Demo-2025_about.md",
+      "summary": [
+        "Organisations",
+        "Government Initiatives",
+        "Innovation and Technology",
+        "Software Technology Parks",
+        "Vision Groups",
+        "IT & Electronics",
+        "Biotechnology",
+        "Startups",
+        "Space",
+        "Organisers",
+        "Vision Group Members"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_accommodation.md",
+      "summary": [
+        "Hotel Listings",
+        "Accommodation Options",
+        "Travel Information",
+        "Booking Links"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_attend.md",
+      "summary": [
+        "Event Features",
+        "Business Partnerships",
+        "Ideas Exchange",
+        "Awards",
+        "Event Experience",
+        "Reasons to Attend",
+        "Networking",
+        "Knowledge Sharing",
+        "Innovation Showcase",
+        "Startup Programs",
+        "Government Collaboration",
+        "Thought Leadership",
+        "Investor Access",
+        "International Participation",
+        "Country Partnerships",
+        "Global Collaboration",
+        "International Delegations",
+        "B2B and B2G Meetings",
+        "Startup Ecosystem"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_bts-venue.md",
+      "summary": [
+        "Venue Information",
+        "Location Details",
+        "Capacity",
+        "Infrastructure",
+        "Sustainability"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_conference.md",
+      "summary": [
+        "Conference Overview",
+        "Thematic Tracks",
+        "Session Formats",
+        "Speakers and Attendees",
+        "Conference Benefits",
+        "Delegate Registration",
+        "Pricing and Passes"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_contact.md",
+      "summary": [
+        "Project Head Contact",
+        "Exhibition & Sponsorship Contacts",
+        "International Pavilion Enquiries Contact",
+        "Startup Enquiries Contacts",
+        "Poster Enquiries Contact",
+        "Delegate Enquiries Contacts"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_cookies-policy.md",
+      "summary": [
+        "Cookies Policy"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_download-center.md",
+      "summary": [
+        "Event Information",
+        "Marketing Materials",
+        "Brand Resources"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_exhibition.md",
+      "summary": [
+        "Exhibition Overview",
+        "Exhibition Highlights",
+        "Exhibition Tariff",
+        "Contact Information",
+        "Exhibition Pavilions",
+        "Exhibitors Profile",
+        "Information Technology (IT) & Deeptech",
+        "Electronics",
+        "Semiconductors",
+        "Healthtech",
+        "Biotech",
+        "Startups",
+        "Research & Development (R&D)",
+        "Aerospace & Defence",
+        "Fintech & Digital Payments",
+        "Greentech & Sustainability",
+        "Mobility & Automotive Tech",
+        "International Companies & Pavilions",
+        "Channel Ecosystem",
+        "Lab to Market Enablers",
+        "Enabling Ecosystem",
+        "Expression of Interest"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_future-makers.md",
+      "summary": [
+        "Conference Overview",
+        "Event Highlights",
+        "Attendees"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_green-bts.md",
+      "summary": [
+        "Event Sustainability",
+        "Environmental Responsibility",
+        "Waste Management",
+        "Recycling",
+        "Carbon Neutrality",
+        "Circular Economy",
+        "Sustainability Initiatives",
+        "Sustainability Awards",
+        "Venue Sustainability"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_index.md",
+      "summary": [
+        "Event Overview",
+        "Conference Theme",
+        "Event Pillars",
+        "Thematic Tracks",
+        "Purpose-Led Platforms",
+        "Exhibition Information",
+        "Speakers",
+        "Global Participation",
+        "Sponsors",
+        "Association Partners",
+        "Supporting Organizations",
+        "Venue Information",
+        "Visa Information",
+        "Accommodation"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_partners-2024.md",
+      "summary": [
+        "Partners",
+        "AI Partners",
+        "Biotech Partners",
+        "Business Innovation Partners",
+        "Country Partners",
+        "Green Mobility Partners",
+        "Airport Partners",
+        "Fibernet Partners",
+        "State Partners",
+        "Workspace Partners",
+        "Banking Partners",
+        "Bio Innovation Partners",
+        "Gold Partners",
+        "Silver Partners",
+        "Bronze Partners",
+        "Session Partners",
+        "Energy Partners",
+        "Electronics Partners",
+        "University Partners",
+        "Edu Tech Partners",
+        "Academic Partners",
+        "Associate Partners",
+        "Sustainability Partners",
+        "Beverage Partners",
+        "Manpower Partners"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_payment-detail.md",
+      "summary": [
+        "Payment Details",
+        "Indian Account Information",
+        "International Account Information"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_privacy-policy.md",
+      "summary": [
+        "Registration Process",
+        "Payment Process",
+        "Cancellation Policy",
+        "Refund Policy",
+        "Registration Transfer Policy",
+        "Substitution Policy"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_special-programme.md",
+      "summary": [
+        "International Tech Cooperation",
+        "Technology Commercialization",
+        "Product Launch",
+        "IT Industry Awards",
+        "Biotechnology Awards",
+        "Startup Awards",
+        "Rural IT Quiz",
+        "National Biotechnology Quiz",
+        "Biotechnology Poster Competition",
+        "B2B Meetings"
+      ]
+    },
+    {
+      "filename": "BTS-Demo-2025_startup.md",
+      "summary": [
+        "Startup Opportunities",
+        "Startup Exhibition",
+        "Startup Benefits",
+        "Startup Tariffs",
+        "Startup Entitlements",
+        "Contacts",
+        "Pitching",
+        "Mentoring",
+        "Reverse Pitching"
+      ]
+    }
+  ]
+}

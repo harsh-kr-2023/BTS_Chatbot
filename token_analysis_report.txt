@@ -1,0 +1,364 @@
+DETAILED TOKEN ANALYSIS REPORT
+==================================================
+
+File: BTS-Demo-2025_about.md
+Size: 16.4KB
+Markdown Words: 1,558
+HTML Words: 1,280
+Markdown Characters: 16,108
+Markdown Characters (no spaces): 14,651
+Markdown Lines: 652
+Markdown Non-empty lines: 354
+Markdown Headings: 100
+Markdown Links: 102
+Markdown Images: 95
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_accommodation.md
+Size: 2.4KB
+Markdown Words: 271
+HTML Words: 223
+Markdown Characters: 2,433
+Markdown Characters (no spaces): 2,097
+Markdown Lines: 51
+Markdown Non-empty lines: 41
+Markdown Headings: 1
+Markdown Links: 9
+Markdown Images: 9
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_attend.md
+Size: 5.0KB
+Markdown Words: 630
+HTML Words: 630
+Markdown Characters: 4,961
+Markdown Characters (no spaces): 4,265
+Markdown Lines: 103
+Markdown Non-empty lines: 60
+Markdown Headings: 22
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_bts-venue.md
+Size: 650.0B
+Markdown Words: 71
+HTML Words: 70
+Markdown Characters: 628
+Markdown Characters (no spaces): 542
+Markdown Lines: 19
+Markdown Non-empty lines: 10
+Markdown Headings: 2
+Markdown Links: 1
+Markdown Images: 1
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_conference.md
+Size: 13.9KB
+Markdown Words: 1,723
+HTML Words: 1,376
+Markdown Characters: 12,760
+Markdown Characters (no spaces): 11,139
+Markdown Lines: 811
+Markdown Non-empty lines: 430
+Markdown Headings: 17
+Markdown Links: 30
+Markdown Images: 10
+Markdown Bold text: 2
+Markdown Italic text: 7
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_contact.md
+Size: 1.9KB
+Markdown Words: 120
+HTML Words: 119
+Markdown Characters: 1,838
+Markdown Characters (no spaces): 1,684
+Markdown Lines: 87
+Markdown Non-empty lines: 59
+Markdown Headings: 13
+Markdown Links: 16
+Markdown Images: 0
+Markdown Bold text: 5
+Markdown Italic text: 9
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_cookies-policy.md
+Size: 2.0B
+Markdown Words: 0
+HTML Words: 0
+Markdown Characters: 2
+Markdown Characters (no spaces): 2
+Markdown Lines: 1
+Markdown Non-empty lines: 1
+Markdown Headings: 0
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_download-center.md
+Size: 223.0B
+Markdown Words: 8
+HTML Words: 4
+Markdown Characters: 215
+Markdown Characters (no spaces): 199
+Markdown Lines: 9
+Markdown Non-empty lines: 7
+Markdown Headings: 0
+Markdown Links: 4
+Markdown Images: 2
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_exhibition.md
+Size: 7.5KB
+Markdown Words: 780
+HTML Words: 774
+Markdown Characters: 7,312
+Markdown Characters (no spaces): 6,323
+Markdown Lines: 321
+Markdown Non-empty lines: 206
+Markdown Headings: 31
+Markdown Links: 6
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 24
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 16
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_future-makers.md
+Size: 1.0KB
+Markdown Words: 150
+HTML Words: 150
+Markdown Characters: 1,021
+Markdown Characters (no spaces): 866
+Markdown Lines: 13
+Markdown Non-empty lines: 7
+Markdown Headings: 2
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_green-bts.md
+Size: 1.1KB
+Markdown Words: 153
+HTML Words: 152
+Markdown Characters: 1,137
+Markdown Characters (no spaces): 974
+Markdown Lines: 13
+Markdown Non-empty lines: 7
+Markdown Headings: 1
+Markdown Links: 1
+Markdown Images: 1
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_index.md
+Size: 14.5KB
+Markdown Words: 1,275
+HTML Words: 777
+Markdown Characters: 14,125
+Markdown Characters (no spaces): 12,898
+Markdown Lines: 671
+Markdown Non-empty lines: 380
+Markdown Headings: 23
+Markdown Links: 155
+Markdown Images: 136
+Markdown Bold text: 1
+Markdown Italic text: 43
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 83
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_partners-2024.md
+Size: 3.1KB
+Markdown Words: 282
+HTML Words: 0
+Markdown Characters: 3,095
+Markdown Characters (no spaces): 2,713
+Markdown Lines: 53
+Markdown Non-empty lines: 52
+Markdown Headings: 0
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 25
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 51
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_payment-detail.md
+Size: 840.0B
+Markdown Words: 122
+HTML Words: 104
+Markdown Characters: 814
+Markdown Characters (no spaces): 633
+Markdown Lines: 27
+Markdown Non-empty lines: 24
+Markdown Headings: 1
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_privacy-policy.md
+Size: 1.6KB
+Markdown Words: 229
+HTML Words: 219
+Markdown Characters: 1,571
+Markdown Characters (no spaces): 1,308
+Markdown Lines: 29
+Markdown Non-empty lines: 15
+Markdown Headings: 2
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 10
+------------------------------
+
+File: BTS-Demo-2025_special-programme.md
+Size: 4.0KB
+Markdown Words: 494
+HTML Words: 484
+Markdown Characters: 3,987
+Markdown Characters (no spaces): 3,476
+Markdown Lines: 80
+Markdown Non-empty lines: 45
+Markdown Headings: 10
+Markdown Links: 11
+Markdown Images: 10
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_sponsorships.md
+Size: 1.7KB
+Markdown Words: 186
+HTML Words: 185
+Markdown Characters: 1,721
+Markdown Characters (no spaces): 1,511
+Markdown Lines: 50
+Markdown Non-empty lines: 32
+Markdown Headings: 8
+Markdown Links: 6
+Markdown Images: 0
+Markdown Bold text: 0
+Markdown Italic text: 0
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_startup.md
+Size: 3.5KB
+Markdown Words: 467
+HTML Words: 457
+Markdown Characters: 3,511
+Markdown Characters (no spaces): 3,004
+Markdown Lines: 79
+Markdown Non-empty lines: 45
+Markdown Headings: 14
+Markdown Links: 2
+Markdown Images: 0
+Markdown Bold text: 3
+Markdown Italic text: 5
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+
+File: BTS-Demo-2025_virtual-roadshow.md
+Size: 708.0B
+Markdown Words: 93
+HTML Words: 93
+Markdown Characters: 685
+Markdown Characters (no spaces): 578
+Markdown Lines: 16
+Markdown Non-empty lines: 9
+Markdown Headings: 2
+Markdown Links: 0
+Markdown Images: 0
+Markdown Bold text: 1
+Markdown Italic text: 1
+Markdown Code blocks: 0
+Markdown Inline code: 0
+Markdown Lists: 0
+Markdown Numbered lists: 0
+------------------------------
+

@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bengaluru Tech Summit 2025</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
+	
+<!-- Icon Font Stylesheet -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Libraries Stylesheet -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.6.0/dist/css/glide.core.min.css">
+<!-- Font Awesome 4.7.0 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+<!-- Template Stylesheet --->
+<link href="css/style.css?v=1753025797" rel="stylesheet">	
+
+<style>
+    .card {
+      border: #fff thin solid;
+      border-radius: 5px;
+      color: #fff;
+
+      background: none;
+    }
+
+    .card-body {
+      color: #fff;
+    }
+
+    .card-title {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .card-text a {
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .card-text a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .card:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .c1 {
+      background: #d62d20;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .c1:hover {
+      background: #444444;
+    }
+
+    .c2 {
+      background: #f09e03;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .c2:hover {
+      background: #444444;
+    }
+
+    .c3 {
+      background: #008744;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .c3:hover {
+      background: #444444;
+    }
+
+    .c4 {
+      background: #0057e7;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    .c4:hover {
+      background: #444444;
+    }
+
+    tr>td {
+      text-align: left;
+      color: #CCC;
+    }
+
+    .fa-soccer-ball-o:before,
+    .fa-futbol-o:before {
+      content: "\f1e3";
+    }
+
+
+    .Click-here {
+      cursor: pointer;
+
+      color: #fff;
+
+      text-align: center;
+
+      padding: 18px 0;
+      margin: 0 auto;
+      transition: background-image 3s ease-in-out;
+    }
+
+    .Click-here:hover {}
+
+    .custom-model-main {
+      text-align: center;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      /* z-index: 1050; */
+      -webkit-overflow-scrolling: touch;
+      outline: 0;
+      opacity: 0;
+      -webkit-transition: opacity 0.15s linear, z-index 0.15;
+      -o-transition: opacity 0.15s linear, z-index 0.15;
+      transition: opacity 0.15s linear, z-index 0.15;
+      z-index: -1;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background: #dddddd;
+    }
+
+    .model-open {
+      z-index: 99999;
+      opacity: 1;
+      overflow: hidden;
+    }
+
+    .custom-model-inner {
+      -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+      transform: translate(0, -25%);
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      -o-transition: -o-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      -o-transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      margin: 30px auto;
+      max-width: 97%;
+    }
+
+    .custom-model-wrap {
+      display: block;
+      width: 100%;
+      position: relative;
+      background-color: #fff;
+      border: 1px solid #999;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      background-clip: padding-box;
+      outline: 0;
+      text-align: left;
+      padding: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      max-height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+
+    .model-open .custom-model-inner {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      position: relative;
+      z-index: 999;
+    }
+
+    .model-open .bg-overlay {
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 99;
+    }
+
+    .bg-overlay {
+      background: rgba(0, 0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      -webkit-transition: background 0.15s linear;
+      -o-transition: background 0.15s linear;
+      transition: background 0.15s linear;
+    }
+
+    .close-btn {
+      position: absolute;
+      right: 0;
+      top: -30px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 30px;
+      color: #fff;
+    }
+
+    @media screen and (min-width:800px) {
+      .custom-model-main:before {
+        content: "";
+        display: inline-block;
+        height: auto;
+        vertical-align: middle;
+        margin-right: -0px;
+        height: 100%;
+      }
+    }
+
+    @media screen and (max-width:799px) {
+      .custom-model-inner {
+        margin-top: 45px;
+      }
+    }
+
+
+
+
+    .Click-here1 {
+      cursor: pointer;
+
+      color: #fff;
+
+      text-align: center;
+
+      padding: 18px 0;
+      margin: 0 auto;
+      transition: background-image 3s ease-in-out;
+    }
+
+    .Click-here1:hover {}
+
+    .custom-model-main1 {
+      text-align: center;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      /* z-index: 1050; */
+      -webkit-overflow-scrolling: touch;
+      outline: 0;
+      opacity: 0;
+      -webkit-transition: opacity 0.15s linear, z-index 0.15;
+      -o-transition: opacity 0.15s linear, z-index 0.15;
+      transition: opacity 0.15s linear, z-index 0.15;
+      z-index: -1;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background: #dddddd;
+    }
+
+    .model-open {
+      z-index: 99999;
+      opacity: 1;
+      overflow: hidden;
+    }
+
+    .custom-model-inner1 {
+      -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+      transform: translate(0, -25%);
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      -o-transition: -o-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      -o-transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      margin: 30px auto;
+      max-width: 97%;
+    }
+
+    .custom-model-wrap1 {
+      display: block;
+      width: 100%;
+      position: relative;
+      background-color: #fff;
+      border: 1px solid #999;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      background-clip: padding-box;
+      outline: 0;
+      text-align: left;
+      padding: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      max-height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+
+    .model-open .custom-model-inner1 {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      position: relative;
+      z-index: 999;
+    }
+
+    .model-open .bg-overlay1 {
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 99;
+    }
+
+    .bg-overlay1 {
+      background: rgba(0, 0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      -webkit-transition: background 0.15s linear;
+      -o-transition: background 0.15s linear;
+      transition: background 0.15s linear;
+    }
+
+    .close-btn1 {
+      position: absolute;
+      right: 0;
+      top: -30px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 30px;
+      color: #fff;
+    }
+
+    @media screen and (min-width:800px) {
+      .custom-model-main1:before {
+        content: "";
+        display: inline-block;
+        height: auto;
+        vertical-align: middle;
+        margin-right: -0px;
+        height: 100%;
+      }
+    }
+
+    @media screen and (max-width:799px) {
+      .custom-model-inner1 {
+        margin-top: 45px;
+      }
+    }
+
+
+    .Click-here2 {
+      cursor: pointer;
+
+      color: #fff;
+
+      text-align: center;
+      ;
+      padding: 18px 0;
+      margin: 0 auto;
+      transition: background-image 3s ease-in-out;
+    }
+
+    .Click-here2:hover {}
+
+    .custom-model-main2 {
+      text-align: center;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      /* z-index: 1050; */
+      -webkit-overflow-scrolling: touch;
+      outline: 0;
+      opacity: 0;
+      -webkit-transition: opacity 0.15s linear, z-index 0.15;
+      -o-transition: opacity 0.15s linear, z-index 0.15;
+      transition: opacity 0.15s linear, z-index 0.15;
+      z-index: -1;
+      overflow-x: hidden;
+      overflow-y: auto;
+      background: #dddddd;
+    }
+
+    .model-open {
+      z-index: 99999;
+      opacity: 1;
+      overflow: hidden;
+    }
+
+    .custom-model-inner2 {
+      -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+      transform: translate(0, -25%);
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      -o-transition: -o-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      -o-transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%;
+      margin: 30px auto;
+      max-width: 97%;
+    }
+
+    .custom-model-wrap2 {
+      display: block;
+      width: 100%;
+      position: relative;
+      background-color: #fff;
+      border: 1px solid #999;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+      background-clip: padding-box;
+      outline: 0;
+      text-align: left;
+      padding: 20px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      max-height: calc(100vh - 70px);
+      overflow-y: auto;
+    }
+
+    .model-open .custom-model-inner2 {
+      -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+      position: relative;
+      z-index: 999;
+    }
+
+    .model-open .bg-overlay2 {
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 99;
+    }
+
+    .bg-overlay2 {
+      background: rgba(0, 0, 0, 0);
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 0;
+      -webkit-transition: background 0.15s linear;
+      -o-transition: background 0.15s linear;
+      transition: background 0.15s linear;
+    }
+
+    .close-btn2 {
+      position: absolute;
+      right: 0;
+      top: -30px;
+      cursor: pointer;
+      z-index: 99;
+      font-size: 30px;
+      color: #fff;
+    }
+
+    @media screen and (min-width:800px) {
+      .custom-model-main2:before {
+        content: "";
+        display: inline-block;
+        height: auto;
+        vertical-align: middle;
+        margin-right: -0px;
+        height: 100%;
+      }
+    }
+
+    @media screen and (max-width:799px) {
+      .custom-model-inner2 {
+        margin-top: 45px;
+      }
+    }
+
+
+    .exi ul li {
+      list-style-type: none;
+      list-style-position: inside;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%;
+      color: #fff;
+      padding-top: 5px;
+    }
+
+
+    .exi h5 {
+      color: #fff;
+      font-size: 30px;
+      font-weight: bold;
+      padding: 10px;
+    }
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar  Start -->
+
+<div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light"> <a href="index.php" class="navbar-brand p-0"> <img src="img/logo-BTS-25-N.png" alt="Logo"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> <span class="fa fa-bars"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+		  
+        <div class="navbar-nav mx-0 mx-lg-auto">
+		<a href="index.php" class="nav-item nav-link " >Home</a>
+			
+        <div class="nav-item dropdown">
+		 <a href="#" class="nav-link " data-bs-toggle="dropdown"> <span class="dropdown-toggle">About</span> </a>
+			  
+         <div class="dropdown-menu">
+				<a href="about.php" class="dropdown-item ">Organisers</a>
+				<a href="about.php#vision-groups" class="dropdown-item ">Vision Groups</a>
+				<a href="green-bts.php"class="dropdown-item ">Green BTS</a>
+			 <a href="bts-venue.php"class="dropdown-item ">Venue</a>
+				
+			</div>
+          </div>
+			
+			
+			
+			<div class="nav-item dropdown">
+		 <a href="#" class="nav-link " data-bs-toggle="dropdown"> <span class="dropdown-toggle">Attend</span> </a>
+			  
+         <div class="dropdown-menu">
+				<a href="attend.php" class="dropdown-item ">Why Attend?</a>
+				
+				<a href="virtual-roadshow.php" class="dropdown-item ">Virtual Roadshow</a>
+			</div>
+          </div>
+			
+			<div class="nav-item dropdown">
+		 <a href="#" class="nav-link " data-bs-toggle="dropdown"> <span class="dropdown-toggle">Conference</span> </a>
+			  
+         <div class="dropdown-menu">
+			
+				
+			  <a href="conference.php" class="dropdown-item ">About Conference</a>
+				 <a href="conference.php#tracks" class="dropdown-item ">Thematic Tracks</a>
+			  <a href="future-makers.php" class="dropdown-item ">Future Makers Conclave</a>
+			 
+				 <a href="conference.php#delegate-tariff" class="dropdown-item ">Delegate Tariff</a>
+			 
+				
+			</div>
+          </div>
+
+			
+          <div class="nav-item dropdown "> 
+			  <a href="#" class="nav-link " data-bs-toggle="dropdown"> <span class="dropdown-toggle">Special Programmes</span> </a>
+            <div class="dropdown-menu">
+				<a href="special-programme.php" class="dropdown-item ">India - USA Tech Conclave</a>
+			
+				<a href="special-programme.php#lab-to-market" class="dropdown-item ">R&D Lab to Market</a>
+				<a href="special-programme.php#product-launch" class="dropdown-item ">Product Launch 4.0</a>
+				<a href="special-programme.php#awards" class="dropdown-item ">Awards</a>
+				<a href="special-programme.php#quiz" class="dropdown-item ">National Rural IT Quiz & BioQuiz</a>
+				<a href="special-programme.php#biotech-poster" class="dropdown-item ">Biotech Poster (Research Paper)</a>
+				<a href="special-programme.php#b2b-meeting" class="dropdown-item ">B2B Meeting</a>
+				
+				
+			  </div>
+          </div>
+			
+          <div class="nav-item dropdown"> <a href="#" class="nav-link " data-bs-toggle="dropdown"> <span class="dropdown-toggle">Exhibition & Sponsorship </span> </a>
+            <div class="dropdown-menu">
+				<a href="exhibition.php" class="dropdown-item ">About Exhibition</a>
+				<a href="sponsorships.php" class="dropdown-item ">Sponsorship</a>
+
+
+				<a href="exhibition.php#pavilions" class="dropdown-item ">Pavilions</a>
+				<a href="exhibition.php#exhibitors-profile" class="dropdown-item ">Exhibitors Profile</a>
+				<a href="exhibition.php#exhibition-tariff" class="dropdown-item ">Expo Tariff</a>
+			  </div>
+          </div>
+			
+          <div class="nav-item dropdown"> <a href="#" class="nav-link active" data-bs-toggle="dropdown"> <span class="dropdown-toggle">startup Springboard</span> </a>
+            <div class="dropdown-menu">
+				<a href="startup.php" class="dropdown-item active">Startup Pavilion</a>
+				<a href="startup.php#startup-tariff" class="dropdown-item active">Startup Tariff</a>
+				<a href="startup.php#mentoring" class="dropdown-item active">Pitching & Mentoring</a>
+				<a href="startup.php#pitching" class="dropdown-item active">Reverse Pitching</a>
+				
+			  </div>
+          </div>
+			
+          <div class="nav-btn px-3"> 
+			  <a href="conference.php#delegate-tariff" class="btn gradient-btn2 rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Register Now </a>
+			</div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+<!-- Navbar End --> 
+
+<!-- inner-page banner  Start --> 
+<div class="container-fluid inner-banner" style="background-image: url('img/BG_2.webp');">
+  <h1 class="zoom-in">Startup Pavilion</h1>
+</div>
+<!-- inner-page banner  End --> 
+
+	
+<section class="mt-4 mb-2" id="startup">
+	<div class="container"> 
+	<div class="row align-items-center exhibition-box" data-aos="fade-up" data-aos-delay="400">
+
+      <div class="col-lg-12 mt-4 mt-lg-0 exhibition">
+         <h2 class="section-title"><span>OPPORTUNITY FOR STARTUPS</h2>
+        <p class="mt-3">  
+			
+			At BTS, entrepreneurs will have immense opportunities to learn, connect and forge partnerships that will elevate their Start-ups to new levels. The dedicated 3 days Conference track and Start-up awards will provide a unique opportunity to rub shoulders with Industry leaders, investors, mentors, policymakers, media and entrepreneurs.<br><br>
+
+The Startup Pavilion will be a star attraction with over 350+ Start-ups, incubators and accelerators from diverse sectors offering the best opportunity to showcase your innovations to the business visitors from India and abroad.<br><br>
+
+If you have a Start-up, you can avail a Special Exhibition rate and reserve your space, NOW!<br>
+
+			 <h5> STARTUPS CAN</h5>
+			  <i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i>&nbsp; Create brand awareness/ visibility to help reach your goals <br>
+				 <i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i>&nbsp; Showcase your innovative products to a global audience <br>
+				 <i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i>&nbsp; Interact with VCs/angel investors and mentors <br><br>
+			 
+			 
+			 
+			  <a href="https://bengalurutechsummit.com/web/it_forms/exhibitor_payment_form.php" target="_blank">  <button class="gradient-btn2 w-30 mt-0 mx-auto"> Book Your Booth / POD</button></a><br>
+			 </div>
+			 
+			 
+			 
+			 
+                                      
+<br><br>
+
+
+                                      
+                                    </p>
+        </div>
+    </div>
+	</div>
+	</section>
+	
+	<section class="mt-4 mb-2" id="startup-tariff">
+	<div class="container"> 
+	<div class="row align-items-center exhibition-box" data-aos="fade-up" data-aos-delay="400">
+
+      <div class="col-lg-12 mt-4 mt-lg-0 exhibition">
+         <h2 class="section-title"><span>STARTUP TARIFF</h2>
+        <p class="mt-3">    
+
+			<div class="row mt-4 ps-4 pe-4">
+                 
+                  <div class="col-lg-12 pt-4">
+                     <div class="inner-text tbs">
+                        <div class="row mb-2">
+                           <div class="col-md-8 textint mt-2 MS-controls mx-auto">
+							      <table class="table table-bordered table-striped table-hover flot-centre text-white" style="font-size:20px;">
+                                    <thead>
+                                      <tr style="text-align: center;text-transform:uppercase">
+                                        <th align="center" valign="middle" scope="col"><h5>TYPE</h5></th>
+                                        <th align="center" valign="middle" scope="col"><h5>Price</h5></th>
+                                        <th align="center" valign="middle" scope="col"><h5>Special Offer</h5></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr class="text-white">
+                                        <td align="center" valign="middle"><strong>Startup Booth</strong></td>
+                                        <td align="center" valign="middle" class="text-center"><span style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">&#8377;</span> 52000 </td>
+                                        <td align="center" valign="middle" class="text-center"><span style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">&#8377;</span> 30000 </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+							   
+                              <div class="text-start">
+								 
+                                 <h5>Terms & Conditions:</h5>
+                                 <i class="fa fa-star fa-spin"></i> 18% GST Applicable<br>
+                                 <i class="fa fa-star fa-spin"></i> The above price is applicable to only less than 7 years old Startups
+
+                              </div>
+                          
+                       <h2 class="section-title mt-4 pt-3"><span>
+                          Entitlements
+                        </h2>
+                  
+                        <h5 class="section-title2"> Startup Booth / POD – Shell Space</h5>
+						   
+						   
+                        <table class="table table-borderless flot-centre text-light">
+                           <tbody>
+                              <tr>
+                                 <td width="1%"><i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i></td>
+                                 <td width="99%">Startup Booth / POD</td>
+                              </tr>
+                              <tr>
+                                 <td><i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i></td>
+                                 <td>One Complementary delegate registrations.</td>
+                              </tr>
+                              <tr>
+                                 <td><i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i></td>
+                                 <td>Two Exhibitor Badges to manage the booth.</td>
+                              </tr>
+                              <tr>
+                                 <td><i class="fa fa-arrows-alt fa-spin" aria-hidden="true"></i></td>
+                                 <td>Listing of Organization information in the e-directory</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                           
+                     
+                        
+                          <p align="center"> <a href="https://bengalurutechsummit.com/web/it_forms/exhibitor_payment_form.php" target="_blank">  <button class="gradient-btn2 w-30 mt-0 mx-auto"> Book Your Booth / POD</button></a> </p> <br>
+                     </div>
+                  </div>
+              
+               </div>
+			
+			 </div>
+                         
+                        </div>
+				
+				<div class="row startup">
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <h6 class="card-title mt-3">Chandrachood AS</h6>
+                          <p class="card-text mt-3"><a href="#">chandrachood.as@mmactiv.com</a>
+                          </p>
+                          <p> <span class="text-light">+91-91488 62559</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <h6 class="card-title mt-3">Shyam B.R.</h6>
+                          <p class="card-text  mt-3"><a href="#">shyam.br@mmactiv.com</a>
+                          </p>
+                          <p> <span class="text-light  pt-2">+91-98860 98544</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                      <div class="card">
+                        <div class="card-body text-center">
+                          <h6 class="card-title mt-3">Sathyakanth Manukar</h6>
+                          <p class="card-text  mt-3"><a href="#">sathyakanth.manukar@mmactiv.com</a>
+                          </p>
+                          <p> <span class="text-light  pt-2">+91-90353 47772</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="pitching"></div>
+                    </div>
+		  </p>
+			 
+			 
+			 
+			 
+			 
+			 
+        </div>
+    </div>
+	</div>
+	</section>
+
+		
+		
+		
+
+
+<section class="mt-4 mb-2" id="mentoring">
+	<div class="container"> 
+	<div class="row align-items-center exhibition-box" data-aos="fade-up" data-aos-delay="400">
+
+      <div class="col-lg-12 mt-4 mt-lg-0 exhibition">
+         <h2 class="section-title"><span>Pitching & Mentoring</h2>
+        <p class="mt-3">  
+			
+			<strong>Pitching</strong><br>
+The Pitching Arena at Bengaluru Tech Summit is a high-energy platform where innovation will meet opportunity. Startups at various growth stages get the chance to present their ideas, products and business models to a curated audience of global investors, venture capitalists, industry leaders and ecosystem enablers. For Tech Startups, this will be a gateway to visibility, validation and possibly funding. Whether you are looking to raise capital, enter new markets or find the right partners, the Pitching Arena at BTS2025 will be the place to be. With a strong focus on deeptech, AI, climate tech, biotech, electronics & semiconductors, spacetech and other frontier innovations, the BTS Pitching Arena is where the next generation of game-changing ventures take off.<br><br>
+
+<strong>Mentoring</strong><br>
+The Mentoring Sessions at Bengaluru Tech Summit offer startup founders and innovators the unique opportunity to engage directly with a panel of seasoned entrepreneurs, investors, policymakers, and domain experts. These interactive sessions are designed to provide strategic guidance, business model refinement, go-to-market insights and valuable industry connections. The mentoring sessions are highly personalized and will have experts who can guide startups across key tech sectors. For those looking to grow smart and scale right, BTS Mentoring Session is your space to listen, learn and lead.<br><br>
+
+
+                                      
+                                    </p>
+        </div>
+    </div>
+	</div>
+	</section>
+
+	<section class="mt-4 mb-2" id="pitching">
+	<div class="container"> 
+	<div class="row align-items-center exhibition-box" data-aos="fade-up" data-aos-delay="400">
+
+      <div class="col-lg-12 mt-4 mt-lg-0 exhibition">
+         <h2 class="section-title"><span>Reverse Pitching</h2>
+        <p class="mt-3">  
+			
+			This session lets investors pitch to startups, sharing their fund philosophy, portfolio focus, and what they are looking to back next. A transparent, founder-first approach to capital connections is what this session will be about.<br><br>
+
+
+
+
+                                      
+                                    </p>
+        </div>
+    </div>
+	</div>
+	</section>	
+	
+	<!--footer start-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 mx-auto col-sm-12">
+      <div id="cookieConsent" class="cookie-consent">
+        <div class="cookie-content">
+            <div class="cookie-text">
+                <h3>We use cookies</h3>
+<p>
+  This site uses cookies to improve your experience and analyze traffic.  
+  <a href="cookies-policy.php">Learn more</a>.  <br>
+  By clicking "Accept", you agree to our use of cookies.
+</p>
+            </div>
+            <div class="cookie-buttons">
+                <button class="cookie-btn decline" id="declineBtn">Decline</button>
+                <button class="cookie-btn accept" id="acceptBtn">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Cookie Consent System with Session Duration Tracking
+        class CookieConsentManager {
+            constructor() {
+                this.startTime = Date.now();
+                this.consentGiven = false;
+                this.init();
+            }
+
+            init() {
+                // Check if consent already given
+                if (this.hasConsent()) {
+                    return;
+                }
+
+                // Show consent banner
+                this.showBanner();
+                
+                // Setup event listeners
+                this.setupEventListeners();
+            }
+
+            hasConsent() {
+                // Check multiple storage mechanisms
+                const cookieConsent = this.getCookie('cookieConsent');
+                const localConsent = localStorage.getItem('cookieConsent');
+                const sessionConsent = sessionStorage.getItem('cookieConsent');
+                
+                return cookieConsent || localConsent || sessionConsent;
+            }
+
+            showBanner() {
+                const banner = document.getElementById('cookieConsent');
+                if (banner) {
+                    setTimeout(() => {
+                        banner.classList.add('show');
+                    }, 1000); // Show after 1 second
+                }
+            }
+
+            hideBanner() {
+                const banner = document.getElementById('cookieConsent');
+                if (banner) {
+                    banner.classList.remove('show');
+                }
+            }
+
+            setupEventListeners() {
+                const acceptBtn = document.getElementById('acceptBtn');
+                const declineBtn = document.getElementById('declineBtn');
+
+                if (acceptBtn) {
+                    acceptBtn.addEventListener('click', () => this.handleConsent('accepted'));
+                }
+
+                if (declineBtn) {
+                    declineBtn.addEventListener('click', () => this.handleConsent('declined'));
+                }
+
+                // Track page visibility changes
+                document.addEventListener('visibilitychange', () => {
+                    if (document.visibilityState === 'hidden' && !this.consentGiven) {
+                        // User is leaving, log current session if no consent given yet
+                        this.logSessionDuration('page_exit');
+                    }
+                });
+
+                // Track before page unload
+                window.addEventListener('beforeunload', () => {
+                    if (!this.consentGiven) {
+                        this.logSessionDuration('page_unload');
+                    }
+                });
+            }
+
+            async handleConsent(action) {
+                const acceptBtn = document.getElementById('acceptBtn');
+                const declineBtn = document.getElementById('declineBtn');
+                
+                // Show loading state
+                acceptBtn.disabled = true;
+                declineBtn.disabled = true;
+                acceptBtn.classList.add('loading');
+                declineBtn.classList.add('loading');
+
+                try {
+                    const duration = Math.floor((Date.now() - this.startTime) / 1000);
+                    
+                    // Send consent data to server
+                    const response = await fetch('log_cookie_consent.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: new URLSearchParams({
+                            action: action,
+                            duration: duration,
+                            page_url: window.location.href
+                        })
+                    });
+
+                    const result = await response.json();
+                    
+                    if (result.status === 'success') {
+                        // Store consent in multiple places for persistence
+                        this.storeConsent(action);
+                        this.consentGiven = true;
+                        this.hideBanner();
+                        
+                        // Show success message (optional)
+                        console.log('Consent logged successfully:', result.data);
+                    } else {
+                        throw new Error(result.message || 'Failed to log consent');
+                    }
+                } catch (error) {
+                    console.error('Error logging consent:', error);
+                    // Still hide banner and store consent locally
+                    this.storeConsent(action);
+                    this.hideBanner();
+                } finally {
+                    // Remove loading state
+                    acceptBtn.disabled = false;
+                    declineBtn.disabled = false;
+                    acceptBtn.classList.remove('loading');
+                    declineBtn.classList.remove('loading');
+                }
+            }
+
+            storeConsent(action) {
+                const expiryDate = new Date();
+                expiryDate.setFullYear(expiryDate.getFullYear() + 1); // 1 year expiry
+                
+                // Store in cookie (most persistent)
+                document.cookie = `cookieConsent=${action}; expires=${expiryDate.toUTCString()}; path=/; SameSite=Lax`;
+                
+                // Store in localStorage
+                localStorage.setItem('cookieConsent', action);
+                
+                // Store in sessionStorage as backup
+                sessionStorage.setItem('cookieConsent', action);
+            }
+
+            getCookie(name) {
+                const value = `; ${document.cookie}`;
+                const parts = value.split(`; ${name}=`);
+                if (parts.length === 2) return parts.pop().split(';').shift();
+                return null;
+            }
+
+            async logSessionDuration(trigger) {
+                // Log session duration without consent action (for analytics)
+                const duration = Math.floor((Date.now() - this.startTime) / 1000);
+                
+                try {
+                    await fetch('log_cookie_consent.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: new URLSearchParams({
+                            action: trigger,
+                            duration: duration,
+                            page_url: window.location.href
+                        })
+                    });
+                } catch (error) {
+                    console.error('Error logging session duration:', error);
+                }
+            }
+        }
+
+        // Initialize cookie consent manager when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new CookieConsentManager();
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+    </div>
+  </div>
+</div>
+   
+
+
+
+
+<footer class="footer" >
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-md-3 col-sm-6" >
+        <h6>EVENT SECRETARIAT</h6>
+        <p>MM Activ Sci-Tech Communications<br>
+          No.11/6, NITON, Block "C"<br>
+          Second Floor, Palace Road<br>
+          Bengaluru - 560001, Karnataka, India<br>
+          +91 080 69328400</p>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h6>QUICK LINKS</h6>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="conference.php">Conference</a></li>
+          <li><a href="exhibition.php">Exhibition</a></li>
+          <li><a href="download-center.php">Download Centre</a></li>
+          <li><a href="https://www.bengalurutechsummit.com/web/it_forms/enquiry.php" target="_blank">Enquiry</a></li>
+          <li><a href="#">B2B Partnering (InterlinX)</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6" >
+       <h6><span class="d-block d-md-none">QUICK LINKS</span>&nbsp;</h6>
+        <ul>
+          <li><a href="accommodation.php">Accommodation</a></li>
+          <li><a href="https://www.bengalurutechsummit.com/web/it_forms/visa-clearance.php" target="_blank">Visa Invitation</a></li>
+          <li><a href="payment-detail.php">Payment Details</a></li>
+          <li><a href="privacy-policy.php">Privacy Policy</a></li>
+          <li><a href="#">Photo Gallery</a></li>
+          <li><a href="contact.php">Contact us </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6" >
+        <h6>FOLLOW US</h6>
+        <p>Stay connected with us on social media for the latest&nbsp;updates:</p>
+        <div class="social-icons"> 
+			
+			
+			<a href="https://www.linkedin.com/company/bengaluru-tech-summit/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+			
+			
+			<a href="https://x.com/blrtechsummit" target="_blank"><i class="fab fa-x-twitter"></i></a> 
+			
+			<a href="https://www.instagram.com/blrtechsummit/" target="_blank"><i class="fab fa-instagram"></i></a> 
+			
+			<a href="https://www.facebook.com/BengaluruTechSummit/" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+			<a href="https://www.youtube.com/channel/UCkNIlhRQlV8YvA-4N5EA3pQ" target="_blank"><i class="fab fa-youtube"></i></a> 
+			<a href="https://api.whatsapp.com/send/?phone=919538018599&text=hi" target="_blank"><i class="fab fa-whatsapp"></i></a>
+		  </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="footer-bottom1">
+  <div class="container " >
+    <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center ">
+      <div> Website Design & Developed By : <strong>SCI Knowledge Interlinks</strong> </div>
+      <div> <a href="#">Cookies Policy</a> <a href="privacy-policy.php">Legal Terms</a> <a href="privacy-policy.php">Privacy Policy</a> </div>
+      <div> © Copyright <script>document.write(new Date().getFullYear())</script> Bengaluru Tech Summit. All Rights Reserved </div>
+    </div>
+  </div>
+</section>
+	
+	
+	
+<!-- Back to Top --> 
+<a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a> 	<!--footer end-->
+	
+	<!--footer java -->
+	<!-- JavaScript Libraries --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+
+<!-- Template Javascript --> 
+<script src="js/main.js?v=1753025797"></script>
+
+<script>
+  AOS.init();
+</script>	
+
+ 
+ 
+ 
+
+</body>
+</html>
